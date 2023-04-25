@@ -24,6 +24,10 @@ body{
     margin: 0 auto;
 }
 
+.d-flex {
+    display: flex;
+}
+
 
 /* header */
 header, p {
@@ -42,3 +46,37 @@ header, p {
 p {
     font-size: 20px;
 }
+
+/* column */
+.column {
+    flex-basis: calc( 100% / 3 );
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+/* cards */
+.cards {
+    height: 100px;
+    background-color: #000000;
+    color: var(--name-job-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+img {
+    height: 100%;
+    width: auto;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--email-color);
+}
+
+.role {
+    padding: 2px;
+}
+
+
